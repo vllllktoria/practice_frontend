@@ -412,31 +412,35 @@ body {
 .contacts__menu{
     display: flex;
     width: 1050px;
-    padding: 195px 0px;
-    flex-direction: row;
+    padding: 220px 0px;
+    flex-direction: column;
     align-items: center;
-    gap: 80px;
 }
 
-.get_in_touch{
+.contacts__menu-items{
     display: flex;
-    width: 238px;
+    width: 1046px;
+    gap: 60px;
+    justify-content: center;
+}
+
+.menu__get-in-touch{
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
-    flex-shrink: 0;
 }
 
-.contacts__title{
+.get-in-touch__title{
     color: #FFF;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.1px;
+    display: flex;
 }
 
-.contacts__text{
+.get-in-touch__text{
     color: #FFF;
     font-size: 14px;
     font-weight: 500;
@@ -446,11 +450,136 @@ body {
 
 .company__info{
     display: flex;
-    width: 238px;
+    width: 241px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
+    gap: 20px;
     flex-shrink: 0;
 }
+
+.menu__company-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.company-info__title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+
+}
+
+.company-info__links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.company-info__link{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+/*Course info page 3*/
+
+.course__course-info{
+    display: flex;
+    padding: 0px 195px;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-info__main-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-info__text{
+    display: flex;
+    width: 507px;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.text__strip{
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+}
+
+.text__header{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.text__description{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.text__link-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-item__link{
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.photo-stack__top-photo{
+    position: relative;
+}
+
+.top-photo__man-photo{
+    position: relative;
+    z-index: 10;
+}
+
+.top-photo__bg{
+    width: 408px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 0px 83px;
+    background: #00087E;
+    position: absolute;
+    top: 22px;
+    left: 31px;
+    z-index: 1;
+}
+
+.photo-stack__bottom-photo{
+    position: relative;
+    top: -100px;
+    right: -85px;
+    z-index: 20;
+}
+
+.photo-stack__singles-photo{
+    position: absolute;
+    top: 230px;
+    right: 200px;
+    z-index: 20;
+}
+
 
 
