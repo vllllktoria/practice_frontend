@@ -510,7 +510,7 @@ body {
     gap: 35px;
 }
 
-.text__strip{
+.text__line{
     width: 94px;
     height: 7px;
     background: #E74040;
@@ -544,6 +544,15 @@ body {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.link-item__link:hover{
+    color: #1f89c5;
+}
+
+.link-item__arrow{
+    cursor: pointer;
 }
 
 .photo-stack__top-photo{
@@ -579,6 +588,66 @@ body {
     top: 230px;
     right: 200px;
     z-index: 20;
+}
+
+/*courses page 2*/
+
+.section__courses-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.courses-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 328px;
+    height: 292px;
+    background-color: white;
+    padding: 35px 40px;
+}
+
+.courses-content__main-img{
+    display: flex;
+    padding: 22px 19px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #E74040;
+}
+
+.courses-content__title{
+    color: #252B42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.courses-content__line{
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+}
+
+.courses-content__description{
+    color: #737373;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
 }
 
 
