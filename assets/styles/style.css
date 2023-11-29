@@ -743,6 +743,10 @@ body {
     letter-spacing: 0.2px;
 }
 
+.contacts__email-input #submit-btn:hover{
+    background: #229ce1;
+}
+
 .contacts__menu{
     display: flex;
     padding: 220px 0px 0px;
@@ -780,9 +784,16 @@ body {
     letter-spacing: 0.2px;
 }
 
+.get-in-touch__text:hover{
+    color: #d7d7d7;
+}
+
 .get-in-touch__icons{
     display: flex;
     gap: 20px;
+}
+
+.icons__item{
     cursor: pointer;
 }
 
@@ -818,6 +829,7 @@ body {
     gap: 10px;
 }
 
+
 .company-info__link{
     color: #FFF;
     font-size: 14px;
@@ -825,6 +837,10 @@ body {
     line-height: 24px;
     letter-spacing: 0.2px;
     cursor: pointer;
+}
+
+.company-info__link:hover{
+    color: #d7d7d7;
 }
 
 
@@ -949,7 +965,6 @@ body {
     .section__course-info {
         flex-direction: column;
         padding: 0 20px;
-        align-items: flex-start;
     }
 
     .course-info__main-info {
@@ -995,11 +1010,29 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 40px;
+        width: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .bottom-photo__singles-photo{
         left: 50px;
     }
+
+    .top-photo__bg{
+        left: 20px;
+    }
+
+    .designer{
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .courses{
+        width: 400px;
+        max-width: 100%;
+    }
+
 
 }
 
