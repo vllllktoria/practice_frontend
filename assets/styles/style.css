@@ -844,7 +844,7 @@ body {
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 990px) {
     .page-header {
         padding: 17px 20px;
     }
@@ -924,7 +924,7 @@ body {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 990px) {
     .section__courses-item {
         padding: 40px 0;
     }
@@ -935,7 +935,6 @@ body {
     }
 
     .courses__content {
-        width: 100%;
         max-width: 280px;
         height: auto;
         padding: 25px;
@@ -1012,34 +1011,28 @@ body {
         padding: 40px;
         width: auto;
         max-width: 100%;
-        height: auto;
     }
 
     .bottom-photo__singles-photo{
         left: 50px;
+        width: auto;
+        max-width: 100%;
     }
 
     .top-photo__bg{
         left: 20px;
     }
 
-    .designer{
-        width: 400px;
-        max-width: 100%;
-    }
-
-    .courses{
-        width: 400px;
-        max-width: 100%;
-    }
 
 
 }
 
-@media only screen and (max-width: 737px) {
+@media only screen and (max-width: 990px) {
+
 
         .contacts__email-input #input {
-            width: 100%;
+            width: auto;
+            max-width: 100%;
             height: 40px;
             padding: 15px 20px;
             margin-bottom: 15px;
@@ -1083,7 +1076,6 @@ body {
         .company-info__links{
             gap: 5px;
         }
-
 }
 
 
