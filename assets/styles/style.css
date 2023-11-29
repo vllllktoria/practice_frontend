@@ -960,7 +960,12 @@ body {
     }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1440px) {
+
+    *{
+        box-sizing: border-box;
+    }
+
     .section__course-info {
         flex-direction: column;
         padding: 0 20px;
@@ -1024,7 +1029,6 @@ body {
     }
 
 
-
 }
 
 @media only screen and (max-width: 990px) {
@@ -1076,6 +1080,12 @@ body {
         .company-info__links{
             gap: 5px;
         }
+
+        .designer{
+            width: auto;
+            max-width: 100%;
+        }
+
 }
 
 
