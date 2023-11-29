@@ -52,6 +52,336 @@ body {
     justify-content: center;
 }
 
+/*page1*/
+
+.page-header{
+    padding: 17px 195px;
+}
+
+.section1{
+    min-height: 889px;
+    background-image: linear-gradient(90deg, black 0.13%, black 0.14%, rgba(0, 0, 0, 0.00) 99.56%),
+    url('../images/background.png');
+    background-size: cover;
+}
+
+.page-header__brandname{
+    display: inline-flex;
+    padding: 13px 42px 13px 0px;
+    align-items: center;
+}
+
+.brandname{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+
+.brandname:hover{
+    color: #d7d7d7;
+}
+
+.page-header__links{
+    margin-left: 30px;
+    display: inline-flex;
+    padding: 3px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+}
+
+.links__link-items{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.link-items__item{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.link-items__item:hover{
+    color: #d7d7d7;
+}
+
+.links__auth{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.auth__login{
+    color: #FFF;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.auth__login:hover{
+    color: #d7d7d7;
+}
+
+.auth__button{
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+    background: #23A6F0;
+    cursor: pointer;
+}
+
+.auth__button:hover{
+    background: #229ce1;
+}
+
+.button__text{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+.page-body{
+    display: flex;
+    padding: 125px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.page-body__content{
+    display: flex;
+    width: 599px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    padding: 0px 195px;
+}
+
+.content__first-title{
+    color: #23A6F0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.content__second-title{
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+}
+
+.content__description{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.content__join-btn{
+    display: flex;
+    padding: 15px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #23A6F0;
+    cursor: pointer;
+}
+
+.content__join-btn:hover{
+    background: #229ce1;
+}
+
+.join-btn__text{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+/*page2*/
+
+.section__courses-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.courses__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 328px;
+    height: 292px;
+    background-color: white;
+    padding: 35px 40px;
+}
+
+.courses__main-img{
+    display: flex;
+    padding: 22px 19px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #E74040;
+}
+
+.courses__title{
+    color: #252B42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.courses__line{
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+}
+
+.courses__description{
+    color: #737373;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+/*page3*/
+
+.section__course-info{
+    display: flex;
+    padding: 0px 195px;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-info__main-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-info__text{
+    display: flex;
+    width: 507px;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.text__line{
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+}
+
+.text__header{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.text__description{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.text__link-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-item__link{
+    color: #23A6F0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+
+.link-item__link:hover{
+    color: #1f89c5;
+}
+
+.link-item__arrow{
+    cursor: pointer;
+}
+
+.photo-stack__top-photo{
+    position: relative;
+}
+
+.top-photo__man-photo{
+    position: relative;
+    z-index: 10;
+}
+
+.top-photo__bg{
+    width: 408px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 0px 83px;
+    background: #00087E;
+    position: absolute;
+    top: 22px;
+    left: 31px;
+    z-index: 1;
+}
+
+.bottom-photo__stats-photo{
+    position: relative;
+    top: -100px;
+    right: -85px;
+    z-index: 20;
+}
+
+.bottom-photo__singles-photo{
+    position: relative;
+    top: -530px;
+    left: 140px;
+    z-index: 20;
+}
 
 /*----course-item----*/
 .course-item {
@@ -200,6 +530,7 @@ body {
     gap: 10px;
     line-height: 24px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .outline-button_arrow:after {
@@ -252,24 +583,27 @@ body {
 }
 /*--------*/
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
     .section {
         padding: 100px 10px;
+
     }
 
     .section-header__header {
         text-align: center;
         font-size: 30px;
         line-height: 40px;
+        align-items: center;
     }
 
     .course-carousel {
         flex-direction: column;
         align-items: center;
     }
+
 }
 
-/*designer cards*/
+/*page5*/
 
 .designer {
     width: 490px;
@@ -352,7 +686,7 @@ body {
     letter-spacing: 0.2px;
 }
 
-/*contacts*/
+/*page6*/
 
 
 .contacts section__contacts{
@@ -400,7 +734,7 @@ body {
     border-radius: 0px 5px 5px 0px;
     border: 1px solid #E6E6E6;
     background: #23A6F0;
-
+    cursor: pointer;
     color: #FFF;
     text-align: center;
     font-size: 14px;
@@ -449,6 +783,7 @@ body {
 .get-in-touch__icons{
     display: flex;
     gap: 20px;
+    cursor: pointer;
 }
 
 .company__info{
@@ -489,335 +824,233 @@ body {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.2px;
-}
-
-/*Course info page 3*/
-
-.course__course-info{
-    display: flex;
-    padding: 0px 195px;
-    justify-content: center;
-    align-items: center;
-}
-
-.course-info__main-info{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.main-info__text{
-    display: flex;
-    width: 507px;
-    flex-direction: column;
-    gap: 35px;
-}
-
-.text__line{
-    width: 94px;
-    height: 7px;
-    background: #E74040;
-}
-
-.text__header{
-    color: #FFF;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: 0.2px;
-}
-
-.text__description{
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-}
-
-.text__link-item{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.link-item__link{
-    color: #23A6F0;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.2px;
     cursor: pointer;
 }
 
-.link-item__link:hover{
-    color: #1f89c5;
+
+@media screen and (max-width: 767px) {
+    .page-header {
+        padding: 17px 20px;
+    }
+
+    .section1 {
+        min-height: auto;
+        background-size: auto;
+        padding: 100px 10px;
+    }
+
+    .page-header__links {
+        margin-left: 10px;
+        gap: 35px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .page-header__brandname{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+    .links__link-items {
+        gap: 30px;
+    }
+
+    .link-items__item {
+        font-size: 15px;
+    }
+
+    .auth__button {
+        padding: 10px 15px;
+        gap: 10px;
+    }
+
+    .links__auth{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .page-body {
+        padding: 50px 20px;
+    }
+
+    .page-body__content {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .content__first-title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content__second-title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .content__description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .content__join-btn {
+        padding: 10px 25px;
+        gap: 5px;
+    }
+
+    .join-btn__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
 
-.link-item__arrow{
-    cursor: pointer;
+@media screen and (max-width: 767px) {
+    .section__courses-item {
+        padding: 40px 0;
+    }
+
+    .courses {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses__content {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        padding: 25px;
+    }
+
+    .courses__main-img {
+        padding: 15px;
+    }
+
+    .courses__title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .courses__line {
+        width: 30px;
+        height: 2px;
+    }
+
+    .courses__description {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 
-.photo-stack__top-photo{
-    position: relative;
+@media screen and (max-width: 1060px) {
+    .section__course-info {
+        flex-direction: column;
+        padding: 0 20px;
+        align-items: flex-start;
+    }
+
+    .course-info__main-info {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main-info__text {
+        text-align: center;
+        align-items: center;
+    }
+
+    .text__line {
+        width: 60px;
+        height: 5px;
+    }
+
+    .text__header {
+        line-height: 36px;
+        font-size: 30px;
+    }
+
+    .text__description {
+        line-height: 20px;
+    }
+
+    .text__link-item {
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .link-item__link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .course-info__photo-stack{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .bottom-photo__singles-photo{
+        left: 50px;
+    }
+
 }
 
-.top-photo__man-photo{
-    position: relative;
-    z-index: 10;
-}
+@media only screen and (max-width: 737px) {
 
-.top-photo__bg{
-    width: 408px;
-    height: 408px;
-    flex-shrink: 0;
-    border-radius: 0px 83px;
-    background: #00087E;
-    position: absolute;
-    top: 22px;
-    left: 31px;
-    z-index: 1;
-}
+        .contacts__email-input #input {
+            width: 100%;
+            height: 40px;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+        }
 
-.bottom-photo__stats-photo{
-    position: relative;
-    top: -100px;
-    right: -85px;
-    z-index: 20;
-}
+        .contacts__email-input #submit-btn {
+            border-radius: 5px;
+            margin-bottom: 15px;
+            height: 40px;
+        }
 
-.bottom-photo__singles-photo{
-    position: relative;
-    top: -530px;
-    left: 140px;
-    z-index: 20;
-}
+        .contacts__menu-items {
+            flex-direction: column;
+        }
 
-/*courses page 2*/
+        .menu__get-in-touch,
+        .menu__company-info {
+            width: 100%;
+            gap: 10px;
+        }
 
-.section__courses-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 80px 0;
-}
+        .get-in-touch__icons {
+            justify-content: center;
+        }
 
-.courses{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
+        .company__info,
+        .contacts__menu-items {
+            padding: 0;
+            gap: 50px;
+        }
 
-.courses-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    width: 328px;
-    height: 292px;
-    background-color: white;
-    padding: 35px 40px;
-}
+        .contacts__menu{
+            align-items: flex-start;
+        }
 
-.courses-content__main-img{
-    display: flex;
-    padding: 22px 19px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 10px;
-    background: #E74040;
-}
+        .get-in-touch__title,
+        .company-info__title {
+            font-size: 20px;
+        }
 
-.courses-content__title{
-    color: #252B42;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-}
+        .company-info__links{
+            gap: 5px;
+        }
 
-.courses-content__line{
-    width: 50px;
-    height: 2px;
-    background: #E74040;
-}
-
-.courses-content__description{
-    color: #737373;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-}
-
-.page-header{
-    padding: 17px 195px;
-}
-
-.section1{
-    min-height: 889px;
-    background-image: linear-gradient(90deg, black 0.13%, black 0.14%, rgba(0, 0, 0, 0.00) 99.56%),
-    url('../images/background.png');
-    background-size: cover;
-}
-
-.page-header__brandname{
-    display: inline-flex;
-    padding: 13px 42px 13px 0px;
-    align-items: center;
-}
-
-.brandname{
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 0.1px;
-    cursor: pointer;
-}
-
-.brandname:hover{
-    color: #d7d7d7;
-}
-
-.page-header__links{
-    margin-left: 30px;
-    display: inline-flex;
-    padding: 3px 0px;
-    justify-content: center;
-    align-items: center;
-    gap: 240px;
-}
-
-.links__link-items{
-    display: flex;
-    align-items: center;
-    gap: 21px;
-}
-
-.link-items__item{
-    color: #FFF;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    cursor: pointer;
-}
-
-.link-items__item:hover{
-    color: #d7d7d7;
-}
-
-.link-items__auth{
-    display: flex;
-    align-items: center;
-    gap: 45px;
-}
-
-.auth__login{
-    color: #FFF;
-    text-align: right;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0.2px;
-    cursor: pointer;
-}
-
-.auth__login:hover{
-    color: #d7d7d7;
-}
-
-.auth__button{
-    display: flex;
-    padding: 15px 25px;
-    align-items: center;
-    gap: 15px;
-    border-radius: 5px;
-    background: #23A6F0;
-    cursor: pointer;
-}
-
-.auth__button:hover{
-    background: #229ce1;
-}
-
-.button_text{
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0.2px;
-}
-
-.page-body{
-    display: flex;
-    padding: 125px 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 80px;
-}
-
-.page-body__content{
-    display: flex;
-    width: 599px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 35px;
-    padding: 0px 195px;
-}
-
-.content__first-title{
-    color: #23A6F0;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-}
-
-.content__second-title{
-    color: #FFF;
-    font-size: 58px;
-    font-weight: 700;
-    line-height: 80px;
-    letter-spacing: 0.2px;
-}
-
-.content__description{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.2px;
-}
-
-.content__join-btn{
-    display: flex;
-    padding: 15px 40px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    border-radius: 5px;
-    background: #23A6F0;
-    cursor: pointer;
-}
-
-.content__join-btn:hover{
-    background: #229ce1;
-}
-
-.join-btn__text{
-    color: #FFF;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 22px;
-    letter-spacing: 0.2px;
 }
 
 
